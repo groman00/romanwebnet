@@ -50,4 +50,7 @@
 
     </div>
 
+    <script src="<?php echo get_template_directory_uri(); ?>/inline_scripts/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
 <?php get_footer(); ?>
