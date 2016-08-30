@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-    <section id="page-content" class="container">
+    <div class="container">
 
         <h1>Hello I'm a page: <?php the_title(); ?></h1>
 
-    </section>
+    </div>
 
 <?php get_footer(); ?>

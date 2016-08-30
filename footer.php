@@ -1,8 +1,10 @@
-        <footer id="footer" class="footer">
-            <h2>I'm a footer</h2>
+        <footer class="footer">
+            <div class="legal">&copy; <?php echo date('Y') ?> <a href="http://www.romanwebnet.com">romanwebnet.com</a></div>
+            <a href="javascript:scroll(0,0);" class="back-to-top">Back to top</a>
         </footer>
         <?php include 'icons.php'; ?>        
         <?php wp_footer(); ?>
         <script src="<?php echo get_template_directory_uri(); ?>/dist/js/bundle.js"></script>
     </body>
 </html>
+

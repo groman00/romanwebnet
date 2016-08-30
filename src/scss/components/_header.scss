@@ -1,4 +1,12 @@
+$mobile-height: 60px;
+
+body{
+    padding-top: $mobile-height + $gutter-width;
+}
+
 .header{
+    position: fixed;
+    top: 0;
     background-color: $gray-lighter;
 }
 
@@ -7,7 +15,7 @@
 
     .nav-item{
         line-height: 1;
-        height: 60px;
+        height: $mobile-height;
         display: table-cell;
         vertical-align: middle;
         color: $gray-light;

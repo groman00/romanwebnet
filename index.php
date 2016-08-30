@@ -10,7 +10,7 @@ https://codex.wordpress.org/Theme_Development
   		yoast_breadcrumb('<p id="breadcrumbs">','</p>');
 	} ?>
 
-	<section id="page-content" class="container">
+	<div class="container">
 
 		<?php if ( have_posts() ) : ?>
             
@@ -28,6 +28,6 @@ https://codex.wordpress.org/Theme_Development
 
 		<?php endif; ?>
 
-	</section>
+	</div>
 
 <?php get_footer(); ?>

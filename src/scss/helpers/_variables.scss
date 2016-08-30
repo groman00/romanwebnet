@@ -25,8 +25,11 @@ $transition-speed-slow: 500ms;
 /* 
  * Grid
  */
-
-$gutter-width: 30px;
+$tablet-small-width: 640px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$gutter-width: 15px;
+//$gutter-width-half: $gutter-width / 2;
 
 /* 
  * Typography 
