@@ -1,0 +1,26 @@
+.header{
+    background-color: $gray-lighter;
+}
+
+.nav{
+    display:table;
+
+    .nav-item{
+        line-height: 1;
+        height: 60px;
+        display: table-cell;
+        vertical-align: middle;
+        color: $gray-light;
+        background-color: transparent;
+        transition: all $transition-speed-normal ease-in-out;
+
+        .icon{
+            height: 26px;
+        }
+        
+        &:hover{
+            background-color: $gray-light;
+            color: $white;
+        }
+    }
+}

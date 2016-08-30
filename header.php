@@ -10,5 +10,21 @@
 </head>
     <body>
     <header id="header" class="header">
-        <h2>I'm a header</h2>
+        <nav class="nav">
+            <a class="nav-item" href="/blog/">
+                <?php svg_icon('pencil'); ?>
+            </a>
+            <a class="nav-item" href="https://www.linkedin.com/in/gregory-roman-8486485" target="_blank">
+                <?php svg_icon('linkedin'); ?>
+            </a>
+            <a class="nav-item" href="https://github.com/groman00" target="_blank">
+                <?php svg_icon('github'); ?>
+            </a>
+            <a class="nav-item" href="https://soundcloud.com/gr99-1" target="_blank">
+                <?php svg_icon('soundcloud'); ?>
+            </a>            
+            <a class="nav-item" href="mailto:groman911@gmail.com">
+                <?php svg_icon('email'); ?>
+            </a>
+        </nav>
     </header>
