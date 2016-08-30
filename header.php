@@ -11,19 +11,19 @@
     <body>
     <header id="header" class="header">
         <nav class="nav">
-            <a class="nav-item" href="/blog/">
+            <a class="nav-item" href="/blog/" title="Blog">
                 <?php svg_icon('pencil'); ?>
             </a>
-            <a class="nav-item" href="https://www.linkedin.com/in/gregory-roman-8486485" target="_blank">
+            <a class="nav-item" href="https://www.linkedin.com/in/gregory-roman-8486485" title="LinkedIn" target="_blank">
                 <?php svg_icon('linkedin'); ?>
             </a>
-            <a class="nav-item" href="https://github.com/groman00" target="_blank">
+            <a class="nav-item" href="https://github.com/groman00" title="Github" target="_blank">
                 <?php svg_icon('github'); ?>
             </a>
-            <a class="nav-item" href="https://soundcloud.com/gr99-1" target="_blank">
+            <a class="nav-item" href="https://soundcloud.com/gr99-1" title="SoundCloud" target="_blank">
                 <?php svg_icon('soundcloud'); ?>
             </a>            
-            <a class="nav-item" href="mailto:groman911@gmail.com">
+            <a class="nav-item" href="mailto:groman911@gmail.com" title="E-mail">
                 <?php svg_icon('email'); ?>
             </a>
         </nav>

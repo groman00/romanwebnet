@@ -6,6 +6,10 @@ https://codex.wordpress.org/Theme_Development
 
 <?php get_header(); ?>
 
+	<?php if ( function_exists('yoast_breadcrumb') ) {
+  		yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+	} ?>
+
 	<section id="page-content" class="container">
 
 		<?php if ( have_posts() ) : ?>
@@ -23,7 +27,7 @@ https://codex.wordpress.org/Theme_Development
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
-		
+
 	</section>
 
 <?php get_footer(); ?>

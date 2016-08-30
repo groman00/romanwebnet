@@ -1,4 +1,8 @@
 <?php get_header(); ?>
+    
+    <?php if ( function_exists('yoast_breadcrumb') ) {
+        yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+    } ?>
 
     <main role="main">
 
@@ -6,7 +10,6 @@
 
         <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-            <!-- article -->
             <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
                 <?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
