@@ -7,7 +7,7 @@ https://codex.wordpress.org/Theme_Development
 <?php get_header(); ?>
 
 	<?php if ( function_exists('yoast_breadcrumb') ) {
-  		yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+  		yoast_breadcrumb('<div class="container"><div class="breadcrumbs">','</div></div>');
 	} ?>
 
 	<div class="container">

@@ -19,6 +19,7 @@ h3,
 h4,
 h5,
 h6{
+    font-family: 'Ubuntu Mono';
     margin:0;
     line-height: $line-height-heading;
 }
@@ -32,42 +33,34 @@ h1,
 h2,
 .h2{
     font-size: $font-size-larger;
-    font-weight: $font-bold;
+    font-weight: $font-normal;
 }
 
 h3,
 .h3{
     font-size: $font-size-large;
-    font-weight: $font-medium;
+    font-weight: $font-normal;
 }
 
 h4,
 .h4{
     font-size: $font-size-base;
-    font-weight: $font-bold;
+    font-weight: $font-normal;
 }
 
 h5,
 .h5{
     font-size: $font-size-small;
-    font-weight: $font-bold;
+    font-weight: $font-normal;
 }
 
 h6,
 .h6{
     font-size: $font-size-smaller;
-    font-weight: $font-medium;
+    font-weight: $font-normal;
 }
 
-/* pre {
-    display: block;
-    padding: $gutter-width;
-    margin: 0;
-    font-size: $font-size-smaller;
-    word-break: break-all;
-    word-wrap: break-word;
-    background-color: $gray-lightest;
-    border: 1px solid $gray-light;
-    overflow-x: scroll;
+pre {
+    border: 1px solid $gray-lighter;
+    font-size: $font-size-small;
 }
- */

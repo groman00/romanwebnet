@@ -7,13 +7,12 @@ $white: #fff;
 $success: #50E3C2;
 $warning: #F45165;
 $gray-lightest: #e9e9e9;
-$gray-lighter: #d6d6d6;
-$gray-light: #aaaaaa;
-$gray-medium: #333333;
+$gray-lighter: #aaaaaa;
+$gray-light: #cccccc;
+$gray-medium: #666666;
 $gray-dark: #4A4A4A;
 $gray-darker: #222;
-$moviefone-blue: #01cdff;
-$moviefone-blue-hover: #00a3cc;
+
 
 /* 
  * Settings
@@ -28,8 +27,8 @@ $transition-speed-slow: 500ms;
 $tablet-small-width: 640px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
-$gutter-width: 15px;
-//$gutter-width-half: $gutter-width / 2;
+$gutter-width: 20px;
+$gutter-width-half: $gutter-width / 2;
 
 /* 
  * Typography 

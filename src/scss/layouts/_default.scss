@@ -5,21 +5,82 @@
 }
 
 html,
-body{}
+body{
+    height:100%;
+    background-color: $gray-darker;
+}
+
+img{
+    max-width:100%;
+}
 
 .container {
     max-width: 100%;;
     padding-right: $gutter-width;
     padding-left: $gutter-width;
+    padding-top: $gutter-width;
+    padding-bottom: $gutter-width;
     margin-right: auto;
     margin-left: auto;
 }
 
+.home-blurb{
+    @include centered();
+    text-align:center;
+    color: $white;
+    height: 300px;
+    width: 300px;    
 
+    .img{
+        margin: 0 auto;
+        height: 200px;
+        width: 200px;
+        background: $white;
+        padding: 2px;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 1);
+    }
+
+    h1{
+        font-size: 30px;
+        margin: $gutter-width 0 $gutter-width-half;
+    }
+
+    h4, h6{
+        color: $gray-lighter;
+        margin-bottom: 4px;
+    }   
+}
+
+.home-page{
+    
+    .arrow-down{
+        color: $gray-lighter;
+        position: absolute;
+        bottom: 20px;
+        height: 30px;
+        width: 30px;
+        left: 50%;
+        margin-left: -15px;
+    } 
+}
 
 @include media-tablet-small{
 
     .container{
         max-width: $tablet-small-width;
+    }
+}
+
+@include media-tablet{
+
+    .container{
+        max-width: $tablet-width;
+    }
+}
+
+@include media-desktop{
+
+    .container{
+        max-width: $desktop-width;
     }
 }

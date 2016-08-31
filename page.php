@@ -1,9 +1,15 @@
 <?php get_header(); ?>
-
-    <div class="container">
-
-        <h1>Hello I'm a page: <?php the_title(); ?></h1>
-
-    </div>
+    
+    <?php 
+        $page = 'home';
+        switch (get_permalink()) {
+            case '/some-page':
+                $page = 'some-page';
+                break;
+            default:
+                break;
+        }
+        include 'pages/' . $page . '.php';
+    ?>
 
 <?php get_footer(); ?>

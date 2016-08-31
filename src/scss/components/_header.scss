@@ -1,34 +1,49 @@
-$mobile-height: 60px;
+$mobile-height: 50px;
 
 body{
-    padding-top: $mobile-height + $gutter-width;
+    //padding-top: $mobile-height + $gutter-width;
+    padding-top: $mobile-height;
 }
 
 .header{
     position: fixed;
     top: 0;
-    background-color: $gray-lighter;
+    left: 0;
+    right: 0;
+    z-index:10;
+    background-color: $white;
+    box-shadow: 0 3px 0px rgba(0, 0, 0, .1);
 }
 
 .nav{
+    width: 100%;
     display:table;
-
+    padding:0;
+    
     .nav-item{
         line-height: 1;
         height: $mobile-height;
         display: table-cell;
         vertical-align: middle;
-        color: $gray-light;
+        color: $gray-medium;
         background-color: transparent;
+        border-right: 1px solid #eaeaea;
+        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
         transition: all $transition-speed-normal ease-in-out;
+
+        &:first-child{
+            border-left: 1px solid #eaeaea;
+        }
 
         .icon{
             height: 26px;
         }
         
         &:hover{
-            background-color: $gray-light;
+            background-color: $gray-lighter;
             color: $white;
+            box-shadow: inset 0 0 20px rgba(0, 0, 0, .2);
         }
     }
 }
+

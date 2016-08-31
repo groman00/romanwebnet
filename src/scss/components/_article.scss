@@ -1,0 +1,27 @@
+.breadcrumbs{
+    font-size: $font-size-small;
+    padding: $gutter-width;
+    margin-bottom: $gutter-width;
+    border:solid 1px $gray-lighter;
+    //box-shadow: 0 4px 4px rgba(0, 0, 0, .15), inset 0 0 10px rgba(0, 0, 0, .15);
+}
+
+.article{
+
+    h1{
+        margin-bottom: $gutter-width;
+    }
+
+    h2{
+        margin-bottom: $gutter-width;
+    }
+
+    p, pre{
+        margin: 0 0 $gutter-width;
+    }
+
+    .byline{
+        font-size: $font-size-small;
+        font-weight: $font-bold;
+    }
+}

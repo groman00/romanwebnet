@@ -6,11 +6,12 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet">
 <link href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css" rel="stylesheet">
 </head>
     <body>
     <header id="header" class="header">
-        <nav class="nav">
+        <nav class="nav container">
             <a class="nav-item" href="/blog/" title="Blog">
                 <?php svg_icon('pencil'); ?>
             </a>
