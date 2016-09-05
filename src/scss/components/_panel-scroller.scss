@@ -2,13 +2,33 @@
     height: 100%;
     width: 100%;
 
-    .panel{
-        position:relative;
+    .panel-background{
+        position: fixed;
         height: 100%;
+        width: 100%;
+        top: 0;
+    }
 
+    .panel{
+        position: relative;
+        
         &:nth-child(2) {
+            min-height: 100%;
+        }
+
+        &:nth-child(3) {
             background: $white;
             box-shadow: 0 0 ($gutter-width * 2) rgba(0, 0, 0, 1);
         }
+        
+        &:nth-child(4) {
+            background: $gray-dark;
+        }        
+    }
+
+    .panel-heading{
+        padding-bottom: $gutter-width;
+        border-bottom: solid 1px $gray-lighter;
+        margin: $gutter-width-half 0;
     }
 }

@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'Ubuntu Mono';
+    font-family: $font-family-fancy;
     margin:0;
     line-height: $line-height-heading;
 }
@@ -27,13 +27,13 @@ h6{
 h1,
 .h1{
     font-size: $font-size-largest;
-    font-weight: $font-bold;
+    font-weight: $font-normal;
 }
 
 h2,
 .h2{
     font-size: $font-size-larger;
-    font-weight: $font-normal;
+    font-weight: $font-bold;
 }
 
 h3,
