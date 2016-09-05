@@ -13,10 +13,10 @@
     <section class="panel"></section>
     <section class="panel">
         <div class="container">
-            <h2 class="panel-heading">Technologies</h2>
+            <h2 class="panel-heading">Technical Experience</h2>
             <div class="technology-grid row">
             <?php
-                $arr = ['Javacript', 'CSS3', 'HTML5', 'jQuery', 'Page Speed', 'SEO', 'Mobile Web', 'Bootstrap', 'Node.js', 'Backbone.js', 'Gulp', 'Sass', 'PHP'];
+                $arr = ['Javacript', 'CSS3', 'HTML5', 'jQuery', 'Page Speed', 'SEO', 'Mobile Web', 'Bootstrap', 'Node.js', 'Backbone.js', 'Gulp', 'Sass', 'PHP', 'BrightScript'];
                 foreach ($arr as &$value) {
                     echo '<div class="col-m-6"><h4 class="title">' . $value . '</h4></div>';
                 }
@@ -31,7 +31,11 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/IMG_0063.JPG"/>
                 </div>
                 <p class="copy">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus volutpat ornare purus, accumsan venenatis lectus faucibus vitae. Sed bibendum est id hendrerit suscipit. Mauris viverra mi justo, id malesuada neque tristique id. Phasellus vel commodo massa, a mattis enim. Pellentesque sit amet tempor augue. Suspendisse dui nibh, vehicula non eros at, aliquam ultricies odio. Fusce ac pellentesque nulla. Etiam consectetur tortor quis mauris pellentesque maximus. Sed porttitor turpis non urna porttitor tincidunt.
+                    Hello, my name is Greg Roman and I'm a Senior Software Engineer based in New York City.  
+                    I am currently employed by AOL Inc. as a member of the AOL Alpha team.  
+                    I have 8+ years of experience building modern, high performing websites and applications for nationally recognized brands.
+                    More recently, I have developed multiple channels for Roku (link) and prototypes for Oculus Rift (link).
+                    Feel free to <a title="Email" href="mailto:greg@romanwebnet.com">contact me</a> for any reason or go check me out on Twitter <a href="https://twitter.com/romanwebnet" title="Twitter" target="_blank">@romanwebnet</a>
                 </p>
             </div>
         </div>
