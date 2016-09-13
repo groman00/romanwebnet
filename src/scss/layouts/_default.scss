@@ -28,23 +28,7 @@ img{
     @include centered();
     text-align:center;
     color: $white;
-    //height: 220px;
     width: 100%;    
-    
-    .logo{
-        height: 100px;
-        width: 100px;
-        background: $white;
-        line-height: 100px;
-        margin: 0 auto;
-        border-radius: 20px;
-        color: $gray-darker;
-        font-weight: $font-bold;
-        font-size: 60px;   
-        box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
-        //background-image: linear-gradient(0, $white 0, rgba(0,0,0,.2) 50%, $white 50%, $white 100%)
-        background-image: linear-gradient(0, rgba(0,0,0,0.25) 0, #fff 50%, #fff 100%);
-    }
 
     h1{
         font-size: 32px;
@@ -171,7 +155,7 @@ img{
 
         .copy{
             font-size: 18px;
-            line-height: 26px;
+            line-height: 28px;
         }
     }    
 }
