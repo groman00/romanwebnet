@@ -28,8 +28,8 @@ img{
     @include centered();
     text-align:center;
     color: $white;
-    height: 220px;
-    width: 300px;    
+    //height: 220px;
+    width: 100%;    
     
     .logo{
         height: 100px;
@@ -48,30 +48,38 @@ img{
     }
 
     h1{
-        margin: $gutter-width 0;
-        text-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+        font-size:32px;
+        margin: 0 0 15px;
+        color: $white;
+        font-weight: $font-bold;
+        text-shadow: 0 5px 5px $black;
     }
 
-    h4, h6{
+    h4{
         color: $gray-lighter;
-        margin-bottom: 5px;
-        //letter-spacing: -.5px;
+        margin-bottom: 10px;
+    }
+
+    h6{
+        color: $gray-lighter;
     }   
 }
 
 .home-bio{
 
     .img{
-        margin: $gutter-width auto;
-        height: 150px;
-        width: 150px;
-        background: $white;
-        padding: 2px;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+        margin: $gutter-width auto $gutter-width-half;
+        height: 160px;
+        width: 160px;
+        //background: $white;
+        //padding: 2px;
+        box-shadow: 0 2px 2px #4a4a4a;
     }
 
     .copy{
-        color: white;
+        //color: white;
+        margin: 0;
+        font-family: $font-family-fancy;
         text-align: justify;
         padding: $gutter-width;
     }
@@ -98,6 +106,7 @@ img{
             background: $gray-lightest;
             padding: $gutter-width-half;
             margin: $gutter-width-half;
+            box-shadow: 0 2px 2px rgba(0,0,0,0.25);
         }        
     }
 }

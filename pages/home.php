@@ -1,9 +1,9 @@
 <div class="home-page panel-scroller">
     <section class="panel-background">
         <div class="home-blurb">
-            <div class="logo">GR</div>
-            <h1>Greg Roman</h1>
-            <h4>Senior Software Engineer</h4>
+            <!-- <div class="logo">GR</div> -->
+            <h1>Gregory M. Roman</h1>
+            <h4>Sr. Software Engineer</h4>
             <h6>New York, NY</h6>
         </div>
         <div class="arrow-down">
