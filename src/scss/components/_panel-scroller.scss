@@ -24,13 +24,25 @@
         &:nth-child(4) {
             //background: $gray-dark;
             background: $gray-lightest;
-            border-top: solid 5px $gray-dark;
+            border-top: solid 4px $gray-dark;
         }        
     }
 
     .panel-heading{
         padding-bottom: $gutter-width;
-        border-bottom: solid 1px $gray-lighter;
+        border-bottom: solid 1px $gray-lightest;
         margin: $gutter-width-half 0;
+    }
+}
+
+@include media-tablet{
+    
+    .panel-scroller{    
+     
+        .panel-heading{
+            font-size: 32px;
+            padding-bottom: 30px;
+            margin: 0 0 15px;
+        }   
     }
 }

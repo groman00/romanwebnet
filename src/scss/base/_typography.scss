@@ -67,3 +67,20 @@ pre {
     border: 1px solid $gray-lighter;
     font-size: $font-size-small;
 }
+
+a{
+    &,
+    &:visited{
+        text-decoration:none;
+    }
+
+    &,
+    &:visited{
+        color: $gray-dark;
+        font-weight: $font-bold;
+    }
+
+    &:hover{
+        text-decoration: underline;
+    }
+}

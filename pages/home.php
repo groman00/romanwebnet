@@ -18,7 +18,7 @@
             <?php
                 $arr = ['Javacript', 'CSS3', 'HTML5', 'jQuery', 'Page Speed', 'SEO', 'Mobile Web', 'Bootstrap', 'Node.js', 'Backbone.js', 'Gulp', 'Sass', 'PHP', 'BrightScript'];
                 foreach ($arr as &$value) {
-                    echo '<div class="col-m-6"><h4 class="title">' . $value . '</h4></div>';
+                    echo '<div class="col-m-6 col-t-4 "><h4 class="title animated" data-animation="swing">' . $value . '</h4></div>';
                 }
             ?>                                                             
             </div>
@@ -34,7 +34,7 @@
                     Hello, my name is Greg Roman and I'm a Senior Software Engineer based in New York City.  
                     I am currently employed by AOL Inc. as a member of the AOL Alpha team.  
                     I have 8+ years of experience building modern, high performing websites and applications for nationally recognized brands.
-                    More recently, I have developed multiple channels for Roku (link) and prototypes for Oculus Rift (link).
+                    More recently, I have developed multiple channels for <a href="https://www.roku.com/" target="_blank">Roku</a> and prototypes for <a href="https://www.oculus.com/" target="_blank">Oculus Rift</a>.
                     Feel free to <a title="Email" href="mailto:greg@romanwebnet.com">contact me</a> for any reason or go check me out on Twitter <a href="https://twitter.com/romanwebnet" title="Twitter" target="_blank">@romanwebnet</a>
                 </p>
             </div>

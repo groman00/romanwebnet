@@ -40,7 +40,6 @@ img{
         border-radius: 20px;
         color: $gray-darker;
         font-weight: $font-bold;
-        font-family: $font-family-fancy;
         font-size: 60px;   
         box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
         //background-image: linear-gradient(0, $white 0, rgba(0,0,0,.2) 50%, $white 50%, $white 100%)
@@ -48,7 +47,7 @@ img{
     }
 
     h1{
-        font-size:32px;
+        font-size: 32px;
         margin: 0 0 15px;
         color: $white;
         font-weight: $font-bold;
@@ -62,7 +61,7 @@ img{
 
     h6{
         color: $gray-lighter;
-    }   
+    }
 }
 
 .home-bio{
@@ -71,22 +70,19 @@ img{
         margin: $gutter-width auto $gutter-width-half;
         height: 160px;
         width: 160px;
-        //background: $white;
-        //padding: 2px;
         box-shadow: 0 2px 2px #4a4a4a;
     }
 
     .copy{
-        //color: white;
         margin: 0;
-        font-family: $font-family-fancy;
-        text-align: justify;
-        padding: $gutter-width;
+        padding: $gutter-width $gutter-width-half;
+        text-align: center;
     }
 }
 
 .home-page{
-    
+    font-family: $font-family-fancy;
+
     .arrow-down{
         color: $gray-lighter;
         position: absolute;
@@ -111,18 +107,73 @@ img{
     }
 }
 
+
 @include media-tablet-small{
 
     .container{
         max-width: $tablet-small-width;
     }
+    
+    .home-page{
+        
+        .arrow-down{
+            bottom: 50px;
+            height: 50px;
+            width: 50px;
+            margin-left: -25px;
+        }       
+    }
+
+    .home-blurb{
+
+        h1{
+            font-size:50px;
+        }
+
+        h4{
+            font-size: $font-size-larger;
+        }
+
+        h6{
+            font-size: $font-size-base;
+        }        
+    }    
 }
 
 @include media-tablet{
 
     .container{
         max-width: $tablet-width;
+        padding-top: $gutter-width*2;
+        padding-bottom: $gutter-width*2;
     }
+
+    .home-page{
+
+        .technology-grid{
+
+            .title{
+                font-size: $font-size-large;
+                padding: $gutter-width;
+                margin: 15px;
+            }        
+        }
+    }
+
+    .home-bio{
+
+        .img{
+            margin-top: 15px;
+            margin-bottom: 35px;
+            height: 215px;
+            width: 215px;
+        }
+
+        .copy{
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }    
 }
 
 @include media-desktop{
@@ -130,4 +181,14 @@ img{
     .container{
         max-width: $desktop-width;
     }
+
+    .home-page{
+
+        .technology-grid{
+
+            .title{
+                font-size: 22px;
+            }        
+        }
+    }    
 }
