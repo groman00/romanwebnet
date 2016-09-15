@@ -6,7 +6,8 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php wp_head(); ?>
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css" rel="stylesheet">
 </head>
     <body>

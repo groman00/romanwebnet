@@ -29,22 +29,20 @@ img{
     text-align:center;
     color: $white;
     width: 100%;    
+    color: $gray-medium;
 
     h1{
         font-size: 32px;
-        margin: 0 0 15px;
-        color: $white;
-        font-weight: $font-bold;
-        text-shadow: 0 5px 5px $black;
+        margin: 0 0 $gutter-width-half;
+        color: $gray-lightest;
+        letter-spacing: -1px;
+        //font-weight: $font-bold;
+        //text-shadow: 0 5px 5px $black;
     }
 
-    h4{
-        color: $gray-lighter;
+    h4{   
         margin-bottom: 10px;
-    }
-
-    h6{
-        color: $gray-lighter;
+        line-height: $line-height-base;
     }
 }
 
@@ -68,7 +66,7 @@ img{
     font-family: $font-family-fancy;
 
     .arrow-down{
-        color: $gray-lighter;
+        color: $gray-light;
         position: absolute;
         bottom: 40px;
         height: 30px;
