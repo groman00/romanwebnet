@@ -9,6 +9,7 @@
         opacity:.15;
         "></div>
         */ ?>
+        <!-- data-0p="transform:translateX(-50%) translateY(-50%);opacity:1;" data-20p="transform:translateX(-50%) translateY(-500%);opacity:0;" -->
         <div class="home-blurb">
             <!-- <div class="logo">GR</div> -->
             <h1>Gregory M. Roman</h1>

@@ -12,21 +12,23 @@
 </head>
     <body>
     <header id="header" class="header">
-        <nav class="nav container">
+
+        <nav class="nav container" data-0p="padding: 20px 0;border-bottom-color:rgba(255, 255, 255, 0.25);" data-90p="padding: 0 0;border-bottom-color:rgba(255, 255, 255, 0);">
+            <?php $attr = 'data-0p="height:90%;" data-90p="height:50%;"'; ?>
             <a class="nav-item" href="/blog/" title="Blog">
-                <?php svg_icon('rss'); ?>
+                <?php svg_icon('rss', '', $attr); ?>
             </a>
             <a class="nav-item" href="https://twitter.com/romanwebnet" title="Twitter" target="_blank">
-                <?php svg_icon('twitter'); ?>
+                <?php svg_icon('twitter', '', $attr); ?>
             </a>            
             <a class="nav-item" href="https://github.com/groman00" title="Github" target="_blank">
-                <?php svg_icon('github'); ?>
+                <?php svg_icon('github', '', $attr); ?>
             </a>
             <a class="nav-item" href="https://www.linkedin.com/in/gregory-roman-8486485" title="LinkedIn" target="_blank">
-                <?php svg_icon('linkedin'); ?>
+                <?php svg_icon('linkedin', '', $attr); ?>
             </a>            
             <a class="nav-item" href="mailto:greg@romanwebnet.com" title="E-mail">
-                <?php svg_icon('email'); ?>
+                <?php svg_icon('email', '', $attr); ?>
             </a>
         </nav>
     </header>

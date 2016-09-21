@@ -1,8 +1,8 @@
 <?php
 
-function svg_icon($icon, $className = ''){
+function svg_icon($icon, $className = '', $attr = ''){
     // https://github.com/encharm/Font-Awesome-SVG-PNG/tree/master/black/svg
-    echo '<svg class="icon ' . $className . '"><use xlink:href="#icon-' . $icon . '"></use></svg>';
+    echo '<svg class="icon ' . $className . '" ' . $attr . '><use xlink:href="#icon-' . $icon . '"></use></svg>';
 }
 
 function my_deregister_scripts(){
