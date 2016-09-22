@@ -76,7 +76,7 @@ img{
         height: 30px;
         width: 30px;
         left: 50%;
-        margin-left: -15px;
+        margin-left: -15px;        
     } 
 
     .technology-grid{
@@ -103,11 +103,15 @@ img{
     .home-page{
         
         .arrow-down{
-            bottom: 50px;
-            height: 50px;
-            width: 50px;
-            margin-left: -25px;
-        }       
+            // bottom: 50px;
+            // height: 50px;
+            // width: 50px;
+            // margin-left: -25px;
+            bottom: 60px;
+            height: 60px;
+            width: 60px;
+            margin-left: -30px;
+        }               
     }
 
     .home-blurb{
@@ -157,7 +161,7 @@ img{
 
         .copy{
             font-size: 18px;
-            line-height: 28px;
+            line-height: 1.85;
         }
     }    
 }

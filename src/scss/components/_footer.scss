@@ -1,14 +1,14 @@
-/* $mobile-height: 100px;
+$mobile-height: 100px;
 
-html{
-    height: 100%;
-}
+// html{
+//     height: 100%;
+// }
 
-body{
-    position: relative;
-    min-height: 100%;
-    padding-bottom: $mobile-height + $gutter-width;
-}
+// body{
+//     position: relative;
+//     min-height: 100%;
+//     padding-bottom: $mobile-height + $gutter-width;
+// }
 
 .footer{
     background: $gray-lightest;
@@ -17,5 +17,4 @@ body{
     bottom: 0;
     right: 0;
     left: 0;
-
-} */
+}

@@ -42,7 +42,7 @@
                 </div>
                 <p class="copy">
                     Hello, my name is Greg Roman and I'm a Senior Software Engineer based in New York City.  
-                    I am currently employed by AOL Inc. as a member of the AOL Alpha team.  
+                    I am currently employed by AOL Inc. as a member of the <a href="http://alpha.aol.com" target="_blank">AOL Alpha</a> team.  
                     I have 8+ years of experience building modern, high performing websites and applications for nationally recognized brands.
                     More recently, I have published multiple channels for <a href="https://www.roku.com/" target="_blank">Roku</a> and built prototypes for <a href="https://www.oculus.com/" target="_blank">Oculus Rift</a>.
                     Feel free to <a title="Email" href="mailto:greg@romanwebnet.com">contact me</a> or go check me out on Twitter <a href="https://twitter.com/romanwebnet" title="Twitter" target="_blank">@romanwebnet</a>
