@@ -10,7 +10,7 @@
         "></div>
         */ ?>
         <!-- data-0p="transform:translateX(-50%) translateY(-50%);opacity:1;" data-20p="transform:translateX(-50%) translateY(-500%);opacity:0;" -->
-        <div class="home-blurb">
+        <div class="home-blurb" data-0p="transform:translateX(-50%) translateY(-50%);opacity:1;" data-90p="transform:translateX(-50%) translateY(-200%);opacity:0;">
             <!-- <div class="logo">GR</div> -->
             <h1>Gregory M. Roman</h1>
             <h4>Sr. Software Engineer <br> New York, NY</h4>

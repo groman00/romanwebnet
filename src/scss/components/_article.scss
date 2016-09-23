@@ -1,9 +1,39 @@
+.breadcrumb-container{
+    padding-bottom: 0;
+}
+
 .breadcrumbs{
+    background: $white;
     font-size: $font-size-small;
     padding: $gutter-width;
-    margin-bottom: $gutter-width;
-    border:solid 1px $gray-light;
-    //box-shadow: 0 4px 4px rgba(0, 0, 0, .15), inset 0 0 10px rgba(0, 0, 0, .15);
+}
+
+.article-detail,
+.article-listing{
+    background: $white;
+    padding: $gutter-width*2;
+}
+
+.article-listing{
+
+    h1{
+        padding-bottom: $gutter-width;
+        border-bottom: solid 1px $gray-lighter;
+        margin-bottom: $gutter-width;
+    }
+
+    .article{
+        @include raised-button();
+        margin: $gutter-width 0;
+
+        h2{
+            margin-bottom: $gutter-width-half;
+        }
+
+        p, pre{
+            margin: 0;
+        }        
+    }
 }
 
 .article{

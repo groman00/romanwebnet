@@ -10,7 +10,9 @@ https://codex.wordpress.org/Theme_Development
   		yoast_breadcrumb('<div class="container"><div class="breadcrumbs">','</div></div>');
 	} ?>
 
-	<div class="container">
+	<div class="container article-listing">
+	
+		<h1>Blog</h1>
 
 		<?php if ( have_posts() ) : ?>
             

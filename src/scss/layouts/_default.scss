@@ -25,7 +25,7 @@ img{
 }
 
 .home-blurb{
-    @include centered();
+    @include centered(fixed);
     text-align:center;
     color: $white;
     width: 100%;    
@@ -83,12 +83,10 @@ img{
         text-align:center;
 
         .title{
+            @include raised-button();
             font-weight: $font-bold;
             padding-bottom: $gutter-width;
-            background: $gray-lightest;
-            padding: $gutter-width-half;
             margin: $gutter-width-half;
-            box-shadow: 0 2px 2px rgba(0,0,0,0.25);
         }        
     }
 }
