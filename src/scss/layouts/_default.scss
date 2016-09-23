@@ -14,6 +14,12 @@ img{
     max-width:100%;
 }
 
+.shingle{
+    background: $gray-lightest;
+    padding: $gutter-width-half;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.25);
+}
+
 .container {
     max-width: 100%;;
     padding-right: $gutter-width;
@@ -83,9 +89,8 @@ img{
         text-align:center;
 
         .title{
-            @include raised-button();
+            @extend .shingle;
             font-weight: $font-bold;
-            padding-bottom: $gutter-width;
             margin: $gutter-width-half;
         }        
     }
@@ -136,13 +141,17 @@ img{
         padding-bottom: $gutter-width*2;
     }
 
+    .shingle{
+        padding: $gutter-width;
+    }
+
     .home-page{
 
         .technology-grid{
 
             .title{
                 font-size: $font-size-large;
-                padding: $gutter-width;
+                //padding: $gutter-width;
                 margin: 15px;
             }        
         }
