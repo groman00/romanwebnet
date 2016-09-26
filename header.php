@@ -17,18 +17,23 @@
             <?php $attr = 'data-0p="height:90%;" data-90p="height:50%;"'; ?>
             <a class="nav-item" href="/blog/" title="Blog">
                 <?php svg_icon('rss', '', $attr); ?>
+                <span class="popover">Blog</span>
             </a>
             <a class="nav-item" href="https://twitter.com/romanwebnet" title="Twitter" target="_blank">
                 <?php svg_icon('twitter', '', $attr); ?>
+                <span class="popover">Twitter</span>
             </a>            
             <a class="nav-item" href="https://github.com/groman00" title="Github" target="_blank">
                 <?php svg_icon('github', '', $attr); ?>
+                <span class="popover">GitHub</span>
             </a>
             <a class="nav-item" href="https://www.linkedin.com/in/gregory-roman-8486485" title="LinkedIn" target="_blank">
                 <?php svg_icon('linkedin', '', $attr); ?>
+                <span class="popover">LinkedIn</span>
             </a>            
-            <a class="nav-item" href="mailto:greg@romanwebnet.com" title="E-mail">
+            <a class="nav-item" href="mailto:greg@romanwebnet.com" title="Email">
                 <?php svg_icon('email', '', $attr); ?>
+                <span class="popover">Email</span>
             </a>
         </nav>
     </header>

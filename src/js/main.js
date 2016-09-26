@@ -22,3 +22,24 @@
 
 }(document));
 
+
+
+
+
+(function(doc){
+
+    // todo: use touch events on mobile
+
+    [].forEach.call(doc.getElementsByClassName('nav-item'), function(el) {
+        el.onmouseover = function() {
+            this.classList.add('hover');
+        };
+        el.onmouseout = function() {
+            this.classList.remove('hover');
+        };
+
+        //touchstart
+        //touchend
+    });
+
+}(document));

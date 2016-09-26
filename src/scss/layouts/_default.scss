@@ -173,6 +173,40 @@ img{
     }    
 }
 
+
+.popover{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);    
+    background: rgb(55, 55, 55);;
+    color: $white;
+    font-size: $font-size-smallest;
+    line-height: 1;
+    padding: 5px;
+    border-radius: 5px;        
+
+    &:before{
+        display: block;
+        content: '';
+        border: solid 6px transparent;
+        border-bottom-color: rgb(55, 55, 55);;
+        height: 12px;
+        width: 12px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(-100%);    
+    }
+}
+
+@include media-tablet{
+    .popover{
+        font-size: $font-size-smaller;
+        padding: 8px;
+    }
+}
+
 @include media-desktop{
 
     .container{
