@@ -1,6 +1,5 @@
-        <footer class="footer hide">
-            <div class="legal">&copy; <?php echo date('Y') ?> <a href="http://www.romanwebnet.com">romanwebnet.com</a></div>
-            <a href="javascript:scroll(0,0);" class="back-to-top">Back to top</a>
+        <footer class="footer" <?php if (get_permalink() == '/') echo 'data-50p="opacity:0;" data-100p="opacity:1;"'; ?>>
+            <div class="container">&copy; <?php echo date('Y') ?> <a href="http://www.romanwebnet.com">romanwebnet.com</a></div>
         </footer>
         <?php include 'icons.php'; ?>        
         <?php wp_footer(); ?>

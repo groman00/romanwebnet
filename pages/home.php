@@ -38,7 +38,7 @@
         <div class="container">
             <div class="home-bio">
                 <div class="img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/IMG_0063.JPG"/>
+                    <img src="<?php echo get_template_directory_uri(); ?>/IMG_0063.jpg"/>
                 </div>
                 <p class="copy">
                     Hello, my name is Greg Roman and I'm a Senior Software Engineer based in New York City.  

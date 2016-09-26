@@ -1,4 +1,4 @@
-$mobile-height: 100px;
+
 
 // html{
 //     height: 100%;
@@ -12,9 +12,27 @@ $mobile-height: 100px;
 
 .footer{
     background: $gray-lightest;
-    height: $mobile-height;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
+    height: $mobile-footer-height;
+    line-height: $mobile-footer-height;
+    font-size: $font-size-smaller;
+    text-align: center;
+
+    .container{
+        padding-top:0;
+        padding-bottom:0;
+    }
+
+    a{
+        font-weight: $font-normal;
+    }
+}
+
+@include media-tablet{
+   .footer{
+        font-size: $font-size-base;
+    }
 }
