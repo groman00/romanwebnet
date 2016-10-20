@@ -1,11 +1,11 @@
 <?php get_header(); ?>
     
+    <div class="container">
+
     <?php if ( function_exists('yoast_breadcrumb') ) {
         yoast_breadcrumb('<div class="breadcrumb-container container"><div class="breadcrumbs">','</div></div>');
     } ?>
-
-    <div class="container">
-
+    
     <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
         <article id="post-<?php the_ID(); ?>" <?php post_class('article article-detail'); ?>>
