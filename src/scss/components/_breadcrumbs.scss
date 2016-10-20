@@ -1,9 +1,9 @@
 .breadcrumb-container{
     padding-bottom: 0;
+    background: $white;
 }
 
 .breadcrumbs{
     background: $white;    
-    //font-size: $font-size-small;
-    padding: $gutter-width;
+    padding: 0 $gutter-width;
 }

@@ -6,11 +6,10 @@ https://codex.wordpress.org/Theme_Development
 
 <?php get_header(); ?>
 
+	<div class="container">
 	<?php if ( function_exists('yoast_breadcrumb') ) {
   		yoast_breadcrumb('<div class="breadcrumb-container container"><div class="breadcrumbs">','</div></div>');
-	} ?>
-
-	<div class="container">
+	} ?>		
 		<section class="article-listing">	
 			<h1>Blog</h1>
 			<?php if ( have_posts() ) : ?>

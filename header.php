@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link href="<?php echo get_template_directory_uri(); ?>/dist/css/style.css" rel="stylesheet">
 </head>
-    <body>
+    <body <?php echo body_class() ?>>
     <header id="header" class="header">
 
         <nav class="nav container" data-0p="padding: 20px 0;border-bottom-color:rgba(255, 255, 255, 0.25);" data-90p="padding: 0 0;border-bottom-color:rgba(255, 255, 255, 0);">

@@ -37,17 +37,11 @@ img{
     width: 100%;    
     color: $gray-medium;
 
-// position: absolute;
-// bottom: 50%;
-// left: 50%;
-// transform: translate3d(-50%, 50%, 0);
     h1{
         font-size: 30px;
         margin: 0 0 $gutter-width-half;
         color: $gray-lightest;
         letter-spacing: -1px;
-        //font-weight: $font-bold;
-        //text-shadow: 0 5px 5px $black;
     }
 
     h4{   

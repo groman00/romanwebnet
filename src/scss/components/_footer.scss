@@ -4,23 +4,27 @@
 //     height: 100%;
 // }
 
-// body{
-//     position: relative;
-//     min-height: 100%;
-//     padding-bottom: $mobile-height + $gutter-width;
-// }
+body{
+    min-height: 100%;
+    height: auto;    
+    padding-bottom: $mobile-footer-height;
+}
+
+body.home{
+    padding-bottom:0;
+    height:100%;
+}    
 
 .footer{
     background: $gray-lightest;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
     height: $mobile-footer-height;
     line-height: $mobile-footer-height;
     font-size: $font-size-smaller;
     text-align: center;
-
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
     .container{
         padding-top:0;
         padding-bottom:0;
@@ -29,6 +33,10 @@
     a{
         font-weight: $font-normal;
     }
+}
+
+.home .footer{
+    
 }
 
 @include media-tablet{
